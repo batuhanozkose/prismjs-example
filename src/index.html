@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="prism.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Prism JS Example by senius'dev</title>
+</head>
+<body>
+    
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href=#">
+            <img src="prism js ex.png" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#">
+              Home
+            </a>
+      
+            <a class="navbar-item" href="https://prismjs.com">
+              Documentation
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="https://github.com/batuhanozkose">
+                  Jobs
+                </a>
+                <a class="navbar-item" href="mailto:batu@megameka.com">
+                  Contact
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary" href="https://github.com/batuhanozkose" target="_blank">
+                  <strong>Github</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <article class="message is-primary">
+        <div class="message-body">
+          Supported Languages: HTML,
+          XML,
+          CSS,
+          JavaScript,
+          SVG,
+          C ,
+          C#,
+          C++,
+          Java,
+          Markdown,
+          PHP,
+          Python
+        </div>
+      </article>
+
+      <pre>
+        <code class="language-javascript">
+            const Prism = require('prismjs');
+            const loadLanguages = require('prismjs/components/');
+            loadLanguages(['haml']);
+            
+            // The code snippet you want to highlight, as a string
+            const code = `= ['hi', 'there', 'reader!'].join " "`;
+            
+            // Returns a highlighted HTML string
+            const html = Prism.highlight(code, Prism.languages.haml, 'haml');
+        </code>
+      </pre>
+
+      <div class="footertext">
+          <center><h2>Made by <strong>seniusdev</strong></h2></center>
+      </div>
+     
+    <script src="prism.js"></script>
+</body>
+</html>

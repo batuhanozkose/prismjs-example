@@ -1,0 +1,25 @@
+{
+  "name": "prismjs-example",
+  "version": "0.0.4",
+  "description": "Prism JS Example by senius'dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/batuhanozkose/prismjs-example.git"
+  },
+  "keywords": [
+    "prism",
+    "prismjs",
+    "javascript",
+    "code"
+  ],
+  "author": "seniusdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/batuhanozkose/prismjs-example/issues"
+  },
+  "homepage": "https://github.com/batuhanozkose/prismjs-example#readme"
+}
